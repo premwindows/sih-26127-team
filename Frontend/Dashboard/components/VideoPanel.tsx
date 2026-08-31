@@ -1,2 +1,0 @@
-import { Play } from 'lucide-react';
-export function VideoPanel() { return <article className="panel video-panel"><div className="panel-title">RELEVANT FOOTAGE</div><div className="video-placeholder"><button aria-label="Play mock footage"><Play size={25} /></button><span>Authorized video segment placeholder</span></div><div className="video-meta">CAM-061 · 18:53:08 · ±30 sec context</div></article>; }

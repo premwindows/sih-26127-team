@@ -1,2 +1,0 @@
-const sightings = [['18:32:14','CAM-047','Detected'],['18:41:52','CAM-052','Detected'],['18:53:08','CAM-061','Detected'],['19:07:31','CAM-079','Detected']];
-export function DetectionTimeline() { return <article className="panel timeline-panel"><div className="panel-title">DETECTION HISTORY</div>{sightings.map(([time, cam, status]) => <div className="timeline-row" key={time}><span className="time">{time}</span><span>{cam}</span><span className="muted">{status}</span><button>Open</button></div>)}</article>; }
