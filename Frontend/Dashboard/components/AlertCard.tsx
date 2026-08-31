@@ -1,0 +1,1 @@
+export function AlertCard() { return <article className="panel alert-panel"><div className="panel-title">ALERTS & ANOMALIES</div><div className="alert-line"><span className="alert-dot"/>No confirmed alert in this mock state</div><p className="muted">Future alert and anomaly tools will populate this panel.</p></article>; }
